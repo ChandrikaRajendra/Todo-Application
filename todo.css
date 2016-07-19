@@ -1,0 +1,60 @@
+.todocontainer{
+	display: inline-block;
+}
+
+#todobox{
+	background-color: yellow;
+	background: -webkit-linear-gradient(yellow,#F9D079); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow,#F9D079); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow,#F9D079); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(yellow,#F9D079);
+	/*background-color: #ffbb33;*/
+	height: 200px;
+	width: 200px;
+}
+
+#plus{
+	bottom: 0px;
+	position: fixed;
+}
+#plus img{
+	height: 30px;
+	width: 30px;
+}
+.info img{
+	height: 20px;
+	width:20px;
+	float: right;
+	margin-top:-18px;
+	margin-left:185px;
+	position: fixed;
+}
+.close,.info{
+	display: none;
+}
+
+.close img{
+	/*display: none;*/
+	height: 15px;
+	width: 15px;
+	float: right;
+	position:fixed;
+	top:10px;
+}
+#todotext{
+	margin: 5px;
+	width: 188px;
+	height: 188px;
+	font-size: 20px;
+}
+
+textarea  
+{  
+   font-family:"Marker Felt"; 
+   font-size: 18px;   
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:20px
+}
