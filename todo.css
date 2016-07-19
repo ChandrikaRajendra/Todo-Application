@@ -40,6 +40,8 @@
 	float: right;
 	position:fixed;
 	top:10px;
+	border-radius: 3px;
+	background-color: white;
 }
 #todotext{
 	margin: 5px;
@@ -57,4 +59,9 @@ textarea
 body {
     font-family: Verdana, Geneva, sans-serif;
     font-size:20px
+    background-color: green;
+	background: -webkit-linear-gradient(green,yellow,); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green,yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green,yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green,yellow);
 }
